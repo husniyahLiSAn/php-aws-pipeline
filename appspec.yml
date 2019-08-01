@@ -4,9 +4,6 @@ files:
   - source: /
     destination: /var/www/html
     overwrite: true
-  - source: /berita.html
-    destination: /var/www/html
-    overwrite: true
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
